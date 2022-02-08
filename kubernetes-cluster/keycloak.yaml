@@ -41,18 +41,18 @@ spec:
             - name: PROXY_ADDRESS_FORWARDING
               value: "true"
             - name: DB_ADDR
-              value: 103.219.147.10 
+              value: DATABASE_IP #
             - name: DB_DATABASE
-              value: ha_keycloak
+              value: DATABASE_NAME #
             - name: DB_USER
-              value: incskandb
+              value: DATABASE_USERNAME #
             - name: DB_PASSWORD
-              value: $5sdfrXd67&|g
+              value: DATABASE_PASSWORD #
               
             # - name: DB_SCHEMA
             #   value: public
             - name: DB_VENDOR
-              value: MARIADB
+              value: MARIADB # MYSQL, MARIADB, POSTGRES
             - name: JGROUPS_DISCOVERY_PROTOCOL
               value: dns.DNS_PING
             - name: JGROUPS_DISCOVERY_PROPERTIES

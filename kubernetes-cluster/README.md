@@ -1,5 +1,5 @@
 # keycloak-kubernetes
-
+**Update DB details on keycloak.yaml FILE**
 # Deploy Keycloak cluster locally
 
 See [Prerequisites](PREREQUISITES.md) to make sure you have Kubernetes Dashboard, nginx-ingress, and bitnami helm repo configured.
